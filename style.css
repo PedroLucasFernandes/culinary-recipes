@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    height: 96vh;
+}
+
+ul {
+    padding: 20px;
+    height: 87vh;
+    list-style: none;
+    border: 1px solid black;
+    margin: 0;
+}
+
+button{
+    height: 30px;
+    width: 70px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+#add-recipe {
+    border: 1px solid black;
+    text-align: center;
+    flex-grow: 1;
+}
+
+#recipe {
+    border: 1px solid black;
+    padding: 20px;
+    display: none;
+    flex-grow: 1;
+}
+
+#recipe button{
+    margin-left: 200px;
+}
